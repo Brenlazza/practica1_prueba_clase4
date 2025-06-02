@@ -1,0 +1,52 @@
+/* Estilo general para el header */
+
+header{
+  background-image: url("../assects/portada/pexels-mvdheuvel-2284166.jpg"); /* Reemplaza con tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Puedes ajustar la altura según tu preferencia */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Estilo para el h1 */
+header h1 {
+  color: white;
+  background-color: rgba(95, 41, 41, 0.5); /* Fondo semitransparente */
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: "IBM Plex Mono", monospace;
+  background-color: blue;
+}
+
+/* Pantallas menores a 992px (tablets y laptops pequeñas) */
+@media (max-width: 992px) {
+  header {
+    height: 250px;
+    
+  }
+
+  header h1 {
+    font-size: 2rem;
+    padding: 16px;
+    background-color: green;
+  }
+}
+
+/* Pantallas menores a 576px (móviles) */
+@media (max-width: 576px) {
+  header {
+    height: 200px;
+    
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+    padding: 12px;
+  }
+}
