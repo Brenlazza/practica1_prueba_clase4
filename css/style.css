@@ -14,14 +14,14 @@ header{
 /* Estilo para el h1 */
 header h1 {
   color: white;
-  background-color: rgba(95, 41, 41, 0.5); /* Fondo semitransparente */
+  background-color: rgba(235, 2, 2, 0.5); /* Fondo semitransparente */
   padding: 20px;
   width: 100%;
   text-align: center;
   margin: 0;
   font-size: 2.5rem;
   font-family: "IBM Plex Mono", monospace;
-  background-color: blue;
+  background-color: rgb(36, 36, 39);
 }
 
 /* Pantallas menores a 992px (tablets y laptops pequeñas) */
